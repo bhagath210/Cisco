@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    color:rgb(11, 3, 124);
+    text-align: center;
+    background-color: lightgreen;
+}
+header h1{
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+}
+header sub{
+    position: relative;
+    left:70px;
+    top:-25px;
+}
+.main1{
+    text-align: center;
+    background-color: rgb(137, 247, 232);
+    padding: 10px;
+}
+#ask-btn{
+    position: relative;
+    left: 1200px;
+    top: -65px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+button{
+    border-radius: 10px;
+    outline: none;
+    
+    background-color: lightskyblue;
+    color: aliceblue;
+    padding: 5px 10px;
+}
+button:hover{
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 10px;
+}
+button:active{
+    outline: none;
+}
+.main1{
+    position: relative;
+    top: -50px;
+    display: block;
+}
+.main1 input{
+    color: lightskyblue;
+    border-radius: 20px;
+    width: 500px;
+    border-color: lightskyblue;
+    padding: 3px;
+    padding-left: 20px;
+    text-indent: 13px;
+    height: 35px;
+    outline: none;
+}
+i { 
+    position: absolute;
+    padding-top: 5px; 
+    color: lightskyblue;
+}
+.icon { 
+    padding: 10px; 
+    min-width: 40px; 
+} 
+input:focus{
+    border-radius: 20px;
+    width: 500px;
+    border-color: lightskyblue;
+    outline: none;
+    
+}
+input:hover{
+    box-shadow: 5px 5px 10px gray;
+}
+.main1 input::placeholder{
+    color: lightskyblue;
+    padding: 5px;
+    padding-left: 0px;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+#search-btn{
+    border-radius: 10px;
+    border: none;
+    padding:5px 10px;
+}
+.main2{
+    position: relative;
+    top:-30px;
+    display: block;
+    float: left;
+    width: 80%;
+    left:10%;
+}
+.main2 h5{
+    color: lightskyblue;
+    text-indent: 10px;
+}
+.main3{
+    width: 100%;
+    height: 150px;
+    display: none;
+}
+.main3 .post-btn {
+    float: right;
+    position: relative;
+    right: 115px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+.accordion {
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.8s;
+    height: 60px;
+}
+.accordion button:active, .accordion button:hover{
+    outline: none
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    outline: none;
+}
+
+.accordion.active:after {
+    content: "\2212";
+}
+
+.acc-panel {
+    width: auto;
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    overflow: hidden;
+    transition: max-height .5s ease;
+}
+
+.acc-panel textarea {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#query-area{
+    height: 100px;
+    width: 98%;
+    background-color: lightskyblue;
+    padding: 10px;
+    color: lightslategray;
+    margin: 1%;
+}
+.post-btn{
+    float: right;
+    position: relative;
+    right:75px;
+    border: none;
+    border-radius: 10px;
+    padding: 3px 15px;
+}
+.cancle-btn{
+    float: right;
+    right:100px;
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    padding: 3px 15px;
+}
+.read-btn{
+    float: left;
+    position: relative;
+    left: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 3px 15px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cisco Comunity</title>
+    <link rel="icon" type="image/x-icon" href="./cisco.jpg">
+    <link rel="stylesheet" href="./Cisco.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <h1>CISCO</h1>
+        <sub>Queries</sub>
+    </header>
+    <button onclick="ask_query()" id="ask-btn">Ask Query</button>
+    <div class="main">
+        <div class="main3">
+            <textarea id="query-area" name="subject" placeholder="Write query..."></textarea>
+            <button class="cancle-btn" onclick="cancle_query()">Cancle</button>
+            <button onclick="post_query()" class="post-btn">Post</button>
+        </div>
+        <div class="main1">
+            <i class="fa fa-search icon"></i>
+            <input type="text" id="search" placeholder="Type your query here">
+            <br><br>
+            <button  onclick="search()" id="search-btn">Search</button><br>
+        </div>
+        <div class="main2">
+            <h5>Related Questions</h5>
+            <button class="accordion">
+                What is Your Name?
+            </button>
+            <div class="acc-panel">
+                <textarea placeholder="Add your Answer"></textarea>
+                <button class="read-btn">Read Existing Answer</button>
+                <button class="post-btn"> Post</button>
+                <button class="cancle-btn">Cancle</button>
+            </div>
+            <button class="accordion">
+                What is your Role?
+            </button>
+            <div class="acc-panel">
+                <textarea placeholder="Add your Answer"></textarea>
+                <button class="read-btn">Read Existing Answer</button>
+                <button class="post-btn"> Post</button>
+                <button class="cancle-btn">Cancle</button>
+            </div>
+            <button class="accordion">
+                What are your skills?
+            </button>
+            <div class="acc-panel">
+                <textarea placeholder="Add your Answer"></textarea>
+                <button class="read-btn">Read Existing Answer</button>
+                <button class="post-btn"> Post</button>
+                <button class="cancle-btn">Cancle</button>
+            </div>
+        </div>
+    </div>
+    <script src="./Cisco.js"></script>
+</body>
+
+</html>
